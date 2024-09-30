@@ -1,0 +1,41 @@
+body  {
+    font-family: sans-serif;
+}
+
+nav  {
+    background-color: lightblue;
+    padding: 20px;
+    
+}
+
+nav a  {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 9px
+}
+
+header  {
+    text-align: center;
+}
+
+article  {
+   text-align: center;
+   background-color: lightblue;
+   border: 2px dotted blue;
+   margin: 20px;
+   
+}
+
+article img  {
+    width: 250px;
+    height: 150px
+}
+
+article a {
+    text-decoration: none;
+    color: firebrick;
+    font-size: 20px;
+}
