@@ -3,8 +3,10 @@ body  {
 }
 
 nav  {
-    background-color: lightblue;
+    background-color: lightgreen;
     padding: 20px;
+    width: 100%;
+    text-align: center;
     
 }
 
@@ -18,7 +20,14 @@ nav a  {
 }
 
 header  {
-    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    
 }
 
 article  {
@@ -43,4 +52,19 @@ article a {
     margin: 10px;
     padding: 10px;
 
+}
+
+
+main h1  {
+    text-align:center;
+}
+
+main {
+    z-index: 0;
+}
+
+a:hover  {
+    color: black;
+    border: 5px solid gray;
+    border-radius: 5px;
 }
